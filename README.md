@@ -4,10 +4,12 @@ Le but de ce projet est de développer un langage dédié à la représentation 
 Ce langage doit permettre de décrire des notes, des modificateurs de hauteur et de rythme, ainsi que des structures musicales complexes. Il doit également offrir des fonctionnalités pour factoriser des parties de morceaux et pour générer du son à partir de la représentation musicale.
 
 ## 🔑 Elements clés du projet
-- analyseur synthaxique : *musiclexeur.mll*
-- analyseur synthaxique : *musicparser.mly*
-- traducteur en partition : *musicast.ml*
-- traducteur en son : *sonast.ml*
+- **analyseur synthaxique** : *musiclexeur.mll*
+- **analyseur synthaxique** : *musicparser.mly*
+- **traducteur en partition** : *musicast.ml*
+- **traducteur en son** : *sonast.ml*
+- **fichier test** : *test*, *frere_jacques*
+- **makefile**
 
 ## 📝 Synthaxe du langage
 Si vous souhaitez écrire votre propre musique, créer un fichier sous la forme suivante : 
