@@ -10,6 +10,7 @@ Ce langage doit permettre de décrire des notes, des modificateurs de hauteur et
 - **traducteur en son** : *sonast.ml*
 - **fichier test** : *test*, *frere_jacques*
 - **makefile**
+- **Rapport de projet** : *IN213.pdf*
 
 ## 📝 Synthaxe du langage
 Si vous souhaitez écrire votre propre musique, créer un fichier sous la forme suivante : 
