@@ -29,7 +29,7 @@ Ensuite, écrivez vos notes sous la forme **|A4-1.0|** avec *"A"* le pitch (ici 
 - 2.0 -> blanche
 - 1.0 -> noire 
 - 0.5 -> croche 
-- 0.25 -> double croche 
+- 0.25 -> double croche \\
 Vous pouvez également rajouter des altérations accidentelles optionnel après l'octave comme **|A4b-1.0|** ou **|A4#-1.0|**. Enfin, les silences sont représentés par "_-1.0" avec *1.0* la durée du silence.
 ```
 C5#-1.0|D5-1.0|E5-1.0|C5#-2.0|
