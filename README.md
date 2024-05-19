@@ -26,7 +26,7 @@ Composer:"VotreNom"
 Tempo:"VotreTempo"
 4/4
 ```
-Vous pouvez modifier la signature rythmique, et rajouter des altérations en ajoutant la ligne optionnelle : 
+Vous pouvez modifier la signature rythmique (qui est ci-dessus définit comme *4/4*), ou encore rajouter des altérations en ajoutant la ligne optionnelle : 
 ```
 Key_signature:"+1"
 ```
