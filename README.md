@@ -30,21 +30,22 @@ Vous pouvez modifier la signature rythmique (qui est ci-dessus définit comme *4
 ```
 Key_signature:"+1"
 ```
-Ensuite, écrivez vos notes sous la forme **|A4-1.0|** avec *"A"* le pitch (ici La), *"4"* l'octave et *"1.0"* la durée de la note telle que :  
+Le signe "+" indique une altérations "dieze", le signe "-" pour les bémols, suivit du nombre d'altération que l'on souhaite (ici, "+1" signifie un dièze en Fa).
+Ensuite, c'est le moment de composer ! Écrivez vos notes séparées par des '|', sous la forme **|A4-1.0|** avec *"A"* le **pitch** (ici La), *"4"* l'**octave** et *"1.0"* la **durée** de la note telle que :  
 - 4.0 -> ronde 
 - 2.0 -> blanche
 - 1.0 -> noire 
 - 0.5 -> croche 
 - 0.25 -> double croche 
 
-Vous pouvez également rajouter des altérations accidentelles optionnel après l'octave comme **|A4b-1.0|** ou **|A4#-1.0|**. Enfin, les silences sont représentés par "_-1.0" avec *1.0* la durée du silence.
+Vous pouvez également rajouter des **altérations accidentelles** optionnelles après l'octave comme **|A4b-1.0|** ou **|A4#-1.0|**. Enfin, les silences sont représentés par "_-1.0" avec dans ce cas, *1.0* la durée du silence.
 ```
 C5#-1.0|D5-1.0|E5-1.0|C5#-2.0|
 B4-1.0|F5-1.0|_-2.0|E5-1.0|
 ```
-### Compiler le projet sous Linux
+### Compiler le projet sous LINUX
 #### 🎧 Musescore
-Pour générer la partition en pdf, il faut utiliser un éditeur de partitions musicales pour Linux qui lit les fichier musicXML. On peut utiliser musescore
+Pour générer la partition en pdf, on choisit d'utiliser un éditeur de partitions musicales pour Linux qui lit les fichier musicXML. On peut par exemple utiliser musescore : 
 ```
 sudo apt install musescore
 ```
