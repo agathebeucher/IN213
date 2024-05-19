@@ -32,13 +32,13 @@ note:
               octave_accidental, ""
           in
           Note { pitch = pitch;  octave = int_of_string octave; accidental = accidental;duration = float_of_string duration; tie=None }
-        | _ -> failwith "Invalid note format"
+        | _ -> failwith "Note format Invalide"
       }
   | SILENCE {
         let s = $1 in
         match String.split_on_char '-' s with
         | _ :: duration :: _ -> Silence {duration=(float_of_string duration); tie=None} 
-        | _ -> failwith "Invalid silence format"
+        | _ -> failwith "Silence format Invalide"
   }
 
 key_signature_opt:
@@ -51,5 +51,5 @@ music:
       let parts = String.split_on_char '/' time_signature in
       match parts with
       | beats :: beat_type :: [] -> { title = $1; composer = $2; tempo = $3; beats = int_of_string beats; beat_type = int_of_string beat_type; key_signature_opt = $5; notes = $6 }
-      | _ -> failwith "Invalid time signature format"
+      | _ -> failwith "Time signature format Invalide"
     }

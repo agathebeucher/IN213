@@ -21,6 +21,7 @@ let silence l =
   in
   ()
 
+(* Convertit le tempo bpm en s*)
 let beats_to_ms tempo_bpm beats =
   let milliseconds_per_beat = 60000.0 /. tempo_bpm in
   let duration_in_ms = milliseconds_per_beat *. beats in

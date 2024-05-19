@@ -31,7 +31,7 @@ let string_of_note = function
   | Note {pitch; octave; accidental;duration} ->
     Printf.sprintf "Pitch: %s, Octave: %d, Accidental: %s, Duration: %f" pitch octave accidental duration
 
-(* Séléctionne les n premiers éléments*)
+(* Fonctions pour séléctionner les n premiers éléments*)
 let rec take n = function
 | [] -> []
 | h :: tl -> if n = 0 then [] else h :: take (n-1) tl

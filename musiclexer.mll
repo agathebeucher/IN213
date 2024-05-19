@@ -2,7 +2,6 @@
 open Musicparser
 }
 
-
 let pitch = ['A'-'G']
 let digit = ['0'-'9']
 let octave = digit
@@ -23,8 +22,7 @@ rule token = parse
   | silence as s { SILENCE (s) }
   | '|' ('\n' | eof) { token lexbuf }
   | '|' { BAR }
-  | '|' { BAR }
-  | '\n' { token lexbuf } (* Ignore newline characters *)
+  | '\n' { token lexbuf }
   | eof { EOF }
   | _ { raise (Failure(Printf.sprintf "Unexpected character: %s" (Lexing.lexeme lexbuf))) }
 
