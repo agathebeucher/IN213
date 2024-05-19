@@ -5,18 +5,18 @@ Ce langage doit permettre de décrire des notes, des modificateurs de hauteur et
 
 ## 🔑 Structure du projet
 1. **Analyseurs** (Lexeur et Parseur)
-- Lexeur : *musiclexeur.mll*
-- Parseur : *musicparser.mly*
+    - Lexeur : *musiclexeur.mll*
+    - Parseur : *musicparser.mly*
 2. **AST** (Abstract Syntax Tree)
-- AST pour la partition : *musicast.ml*
-- AST pour le son : *sonast.ml*
+    - AST pour la partition : *musicast.ml*
+    - AST pour le son : *sonast.ml*
 3. **Tests et Exemples**
-- Exemple de test : *test*
-- Exemples de morceaux : *frere_jacques*
+    - Exemple de test : *test*
+    - Exemples de morceaux : *frere_jacques*
 4. **Scripts de Construction**
-- Makefile : *Makefile*
+    - Makefile : *Makefile*
 5. **Documentation**
-- Rapport de projet : *IN213.pdf*
+    - Rapport de projet : *IN213.pdf*
 
 ## 📝 Synthaxe du langage
 Si vous souhaitez écrire votre propre musique, créer un fichier sous la forme suivante : 
