@@ -30,7 +30,8 @@ Vous pouvez modifier la signature rythmique (qui est ci-dessus définit comme *4
 ```
 Key_signature:"+1"
 ```
-Le signe "+" indique une altérations "dièze" alors que le signe "-" indique les bémols, suivit du nombre d'altération que l'on souhaite (ici, "+1" signifie un dièze en Fa).\\
+Le signe "+" indique une altérations "dièze" alors que le signe "-" indique les bémols, suivit du nombre d'altération que l'on souhaite (ici, "+1" signifie un dièze en Fa).
+
 Ensuite, c'est le moment de composer ! Écrivez vos notes séparées par des '|', sous la forme **|A4-1.0|** avec *"A"* le **pitch** (ici La), *"4"* l'**octave** et *"1.0"* la **durée** de la note telle que :  
 - 4.0 -> ronde 
 - 2.0 -> blanche
