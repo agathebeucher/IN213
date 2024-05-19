@@ -4,19 +4,19 @@ Le but de ce projet est de développer un langage dédié à la représentation 
 Ce langage doit permettre de décrire des notes, des modificateurs de hauteur et de rythme, ainsi que des structures musicales complexes. Il doit également offrir des fonctionnalités pour factoriser des parties de morceaux et pour générer du son à partir de la représentation musicale.
 
 ## 🔑 Structure du projet
-1. Analyseurs (Lexeur et Parseur)
-- **Lexeur** : *musiclexeur.mll*
-- **Parseur** : *musicparser.mly*
-2. AST (Abstract Syntax Tree)
-- **AST pour la partition** : *musicast.ml*
-- **AST pour le son** : *sonast.ml*
-3. Tests et Exemples
-- **Exemple de test** : *test*
-- **Exemples de morceaux** : *frere_jacques*
-4. Scripts de Construction
-- **Makefile** : *Makefile*
-5. Documentation
-- **Rapport de projet** : *IN213.pdf*
+1. **Analyseurs** (Lexeur et Parseur)
+- Lexeur : *musiclexeur.mll*
+- Parseur : *musicparser.mly*
+2. **AST** (Abstract Syntax Tree)
+- AST pour la partition : *musicast.ml*
+- AST pour le son : *sonast.ml*
+3. **Tests et Exemples**
+- Exemple de test : *test*
+- Exemples de morceaux : *frere_jacques*
+4. **Scripts de Construction**
+- Makefile : *Makefile*
+5. **Documentation**
+- Rapport de projet : *IN213.pdf*
 
 ## 📝 Synthaxe du langage
 Si vous souhaitez écrire votre propre musique, créer un fichier sous la forme suivante : 
