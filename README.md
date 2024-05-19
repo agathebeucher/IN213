@@ -44,13 +44,13 @@ Vous pouvez également rajouter des **altérations accidentelles** optionnelles 
 C5#-1.0|D5-1.0|E5-1.0|C5#-2.0|
 B4-1.0|F5-1.0|_-2.0|E5-1.0|
 ```
-### Compiler le projet sous LINUX
-#### 🎧 Musescore
+## 🔧 Compiler le projet sous LINUX
+### 🎧 Musescore
 Pour générer la partition en pdf, on choisit d'utiliser un éditeur de partitions musicales pour Linux qui lit les fichier musicXML. On peut par exemple utiliser musescore : 
 ```
 sudo apt install musescore
 ```
-#### 🎼 Partition
+### 🎼 Partition
 Pour générer une partition en pdf et du son à partir du code de frere_jacques: 
 ```
 $ make
